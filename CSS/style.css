@@ -80,3 +80,14 @@
             height: auto;
             background: transparent;
         }
+        
+        .icons {
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding: 2%;
+        }
