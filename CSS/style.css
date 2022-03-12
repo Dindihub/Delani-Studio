@@ -15,13 +15,14 @@
             background-image: url(./backgrounds/h_img.jpg);
             background-size: cover;
             display: cover;
+            padding: 2%;
         }
         
         #about-us {
             width: 100vw;
             height: 300px;
             margin: 10px;
-            padding:
+            padding: 2%;
         }
         
         #services {
@@ -37,6 +38,16 @@
             padding: 2%;
         }
         
+        #what-we-do {
+            width: 100vw;
+            height: 100vh;
+            padding: 2%;
+        }
+        
         #portfolio-1 {
+            display: inline-block;
+        }
+        
+        #portfolio-2 {
             display: inline-block;
         }
