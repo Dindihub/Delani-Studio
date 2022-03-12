@@ -7,6 +7,7 @@
         
         body {
             color: black;
+            font-weight: bold;
         }
         
         #main-section {
@@ -16,6 +17,15 @@
             background-size: cover;
             display: cover;
             padding: 2%;
+        }
+        
+        .landing-page {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            font-weight: bold;
         }
         
         #about-us {
@@ -50,4 +60,23 @@
         
         #portfolio-2 {
             display: inline-block;
+        }
+        
+        #contact-us {
+            width: 100%;
+            height: auto;
+            background-image: url(./backgrounds/c_image.jpg);
+            background-size: cover;
+            display: cover;
+            background-repeat: no-repeat;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 10%;
+        }
+        
+        .form-inline {
+            width: fit-content;
+            height: auto;
+            background: transparent;
         }
