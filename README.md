@@ -9,7 +9,7 @@ This is a Landing page for a software development company where customers can cl
 *Click on icons and projects to view descriptions
 *Send us an email by filling in the contact section
 ## Live
-
+Click [this link](https://dindihub.github.io/Delani-Studio) to navigate to site
 =======
 ## Screenshot
 ![Delani studio](images/assets/Delani.jpg)
