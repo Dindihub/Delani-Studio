@@ -10,6 +10,11 @@ This is a Landing page for a software development company where customers can cl
 *Send us an email by filling in the contact section
 ## Live
 
+<<<<<<< HEAD
+=======
+## Screenshot
+![Delani studio](./images/assets/Delani Studio.jpg)
+>>>>>>> 3e0f5cf28fbec7063529508ba6631abd73ff58fb
 ## Known bugs
 The page may not be responsive on small devices
 ## Technologies used

@@ -1,0 +1,158 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    #main-section {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./backgrounds/h_img.jpg);
+        background-size: cover;
+        display: cover;
+        padding: 2%;
+    }
+    
+    #logo {
+        padding: 5%;
+    }
+    
+    .landing-page {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        font-weight: bold;
+    }
+    /* .text-center {
+        text-align: center;
+    } */
+    
+    #mouse {
+        margin-top: 400px;
+    }
+    
+    #about-us {
+        width: 100%;
+        height: 300px;
+        margin: 10px;
+        padding: 2%;
+    }
+    
+    #services {
+        width: 100%;
+        height: 400px;
+        background-image: url(./backgrounds/s_image.jpg);
+        background-size: cover;
+        display: cover;
+        background-repeat: no-repeat;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding: 2%;
+    }
+    
+    #paragraph-design {
+        display: none;
+    }
+    
+    #para-development {
+        display: none;
+    }
+    
+    #para-product {
+        display: none;
+    }
+    
+    #what-we-do {
+        width: 100vw;
+        height: 100vh;
+        padding: 2%;
+    }
+    
+    .portfolio-grids {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .portfolio {
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .overlay:hover {
+        opacity: 1;
+    }
+    
+    #contact-us {
+        width: 100%;
+        height: 100%;
+        background-image: url(./backgrounds/c_image.jpg);
+        background-size: cover;
+        display: cover;
+        background-repeat: no-repeat;
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        padding: 5%;
+    }
+    
+    input[type=text],
+    input[type=email],
+    #text-area {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .form-group {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 5px;
+    }
+    
+    .form-control {
+        width: 20%;
+        margin-left: 5%;
+        margin-right: 30px;
+        background-color: transparent;
+        /* color: white; */
+    }
+    
+    #text-area {
+        width: 60%;
+        height: auto;
+        background-color: transparent;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .copyright {
+        text-align: center;
+        padding: 2%;
+    }
