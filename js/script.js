@@ -1,3 +1,4 @@
+// toggle paragraph on what to do section
 let el = document.getElementById("design-caption");
 let el2 = document.getElementById("development-caption");
 let el3 = document.getElementById("product-caption")
@@ -19,3 +20,15 @@ el3.addEventListener('click', (e) => {
     document.getElementById('para-product').style.display = "block";
 
 });
+
+// overlay on portfolio section
+let images = document.querySelectorAll(".portfolio")
+let overlay = document.querySelectorAll(".overlay")
+for (let i = 0; i <= images.length; i++) {
+    images[i].addEventListener("mouseover", (e) => {
+        overlay[i].style.display = "block"
+    })
+    images[i].addEventListener("mouseout", (e) => {
+        overlay[i].style.display = "none"
+    });
+}
