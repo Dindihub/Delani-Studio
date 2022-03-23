@@ -155,6 +155,16 @@
         padding: 2%;
     }
 
+    .submit{
+width:200px;
+height:auto;
+background-color: transparent;
+
+    }
+    button[type=submit] {
+color:white;
+    }
+
     .icons {
         display: flex;
         justify-content: center;
