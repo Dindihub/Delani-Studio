@@ -32,3 +32,12 @@ for (let i = 0; i <= images.length; i++) {
         overlay[i].style.display = "none"
     });
 }
+
+// validate form
+
+let button=getElementById('submit-btn').addEventListener('submit', (e) => {
+alert("your information is revieved")
+// let button= document.getElementById("submitbtn");
+// button.addEventListener("submit", function() {
+//   document.getElementById("demo").innerHTML = "Hello World";
+});
