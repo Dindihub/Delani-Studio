@@ -35,9 +35,7 @@ for (let i = 0; i <= images.length; i++) {
 
 // validate form
 
-let button=getElementById('submit-btn').addEventListener('submit', (e) => {
-alert("your information is revieved")
-// let button= document.getElementById("submitbtn");
-// button.addEventListener("submit", function() {
-//   document.getElementById("demo").innerHTML = "Hello World";
+let oneForm=document.getElementById("form").addEventListener('click', e => {
+e.preventDefault();
+alert("Your form has been submitted")
 });
